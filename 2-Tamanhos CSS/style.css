@@ -1,0 +1,27 @@
+html {
+    font-size: 20px;
+}
+
+div {
+    font-size: 10px;
+}
+
+.pixel {
+    color: palevioletred;
+    font-size: 36px;
+}
+
+.point {
+    color:darkblue;
+    font-size: 36pt;
+}
+
+.em {
+    color:coral;
+    font-size: 1em;
+}
+
+.rem {
+    color:cornflowerblue;
+    font-size: 1rem;
+}
