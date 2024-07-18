@@ -1,0 +1,32 @@
+[action=login] {
+    width: 30vw;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: cornflowerblue;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(120, 30%, 50%);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2),
+    0 5px 5px rgba(0, 0, 0, 0.2);
+}
